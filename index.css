@@ -1,0 +1,115 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 700px;
+    background: rgb(6, 6, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle1{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 400px;
+    height: 400px;
+    background:linear-gradient(red,blue);
+    border-radius: 50%;
+}
+.circle2{
+    content: '';
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background:linear-gradient(rgb(248, 4, 207),rgb(127, 14, 202));
+    border-radius: 50%;
+}
+.circle3{
+    content: '';
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    width: 200px;
+    height: 200px;
+    background:linear-gradient(rgb(255, 94, 0),rgb(149, 151, 14));
+    border-radius: 50%;
+}
+.circle4{
+    content: '';
+    position: absolute;
+    bottom: 100px;
+    right: 300px;
+    width: 200px;
+    height: 200px;
+    background:linear-gradient(rgb(120, 228, 20),rgb(115, 11, 184));
+    border-radius: 50%;
+}
+.circle5{
+    content: '';
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 100px;
+    height: 100px;
+    background:linear-gradient(#f0f,#f00);
+    border-radius: 50%;
+}
+
+.wrtx{
+    width: 400px;
+    height: max-content;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.google{
+    width: 100%; 
+    text-align: center; 
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 15px;
+}
+.google:hover{
+    background: rgba(255, 255, 255, 0.192);
+}
+.google i{
+    color:red;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+.google a{
+    color: #fff;
+    text-decoration: none;
+}
+.wrtx p{
+    margin-bottom: 0%;
+    color: #fff;
+}
+.wrtx input[type="text"],input[type="email"],
+input[type="password"]{
+    width: 100%;
+    height: 20px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #000;
+}
+::placeholder{
+    color: #fff;
+}
+.wrtx input[type="submit"]{
+    width: 100%;
+    margin-top: 140px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+}
+.wrtx input[type="submit"]:hover{
+    color: #fff;
+    background: #000;
+}
